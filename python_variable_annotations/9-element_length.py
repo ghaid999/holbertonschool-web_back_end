@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Task 9"""
 
+
 from typing import Iterable, Tuple, List
 
 
