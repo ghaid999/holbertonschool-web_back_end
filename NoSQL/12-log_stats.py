@@ -6,6 +6,7 @@ from pymongo import MongoClient
 
 def main():
     """Print Nginx log statistics."""
+if __name__ == "__main__":
     client = MongoClient("mongodb://127.0.0.1:27017")
     collection = client["logs"]["nginx"]
 
@@ -23,5 +24,4 @@ def main():
     print("{} status check".format(status))
 
 
-if __name__ == "__main__":
-    main()
+
